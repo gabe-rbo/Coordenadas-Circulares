@@ -202,7 +202,7 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
    <p md-src-pos="45..986"><span md-src-pos="45..121">Coordenadas Circulares foram definidas pela primeira vez em um livro chamado</span>: <em md-src-pos="123..148">The Mathematics Teacher</em><span md-src-pos="148..149">,</span> <span md-src-pos="150..158">em 1971.</span> <span md-src-pos="159..185">Sua definição é a seguinte</span>: "<span md-src-pos="188..227">Consiste em dois eixos perpendiculares,</span> <span md-src-pos="228..236">chamados</span> <em md-src-pos="237..240">U</em> <span md-src-pos="241..242">e</span> <em md-src-pos="243..246">V</em><span md-src-pos="246..247">.</span> <span md-src-pos="248..322">Cada ponto no eixo é o centro de uma circunferência que passa pela origem.</span> <span md-src-pos="323..330">O ponto</span> <em md-src-pos="331..339">(u, v)</em> <span md-src-pos="340..402">é definido como a interseção de uma circunferência centrada em</span> <em md-src-pos="403..406">u</em> <span md-src-pos="407..447">no eixo horizontal com outra centrada em</span> <em md-src-pos="448..451">v</em> <span md-src-pos="452..469">no eixo vertical.</span>" <span md-src-pos="471..535">Este sistema de coordenadas pouco usual é bastante interessante,</span> <span md-src-pos="536..540">pois</span> <strong md-src-pos="541..594">assíntotas verticais tornam-se pontos no eixo <em md-src-pos="589..592">U</em></strong><span md-src-pos="594..595">.</span> <span md-src-pos="596..685">Neste notebook estão implementadas algumas funções e curvas neste sistema de coordenadas,</span> <span md-src-pos="686..742">as quais acredito que seus gráficos ficam interessantes.</span> <span md-src-pos="743..811">A mudança de coordenadas pode ser encontrado no artigo publicado por</span> <em md-src-pos="812..846">Elliot A. Tanis and Lee Kuivinen</em><span md-src-pos="846..847">,</span> <span md-src-pos="848..855">chamado</span>: <em md-src-pos="857..906">Circular Coordinates and Computer Drawn Designs</em><span md-src-pos="906..907">,</span> <span md-src-pos="908..920">publicado em</span>: <em md-src-pos="922..985">Mathematics Magazine, Vol. 52, No. 3 (May, 1979), pp. 175-178</em><span md-src-pos="985..986">.</span></p>
    <p md-src-pos="988..1118"><span md-src-pos="988..1007">Por Gabriel Ribeiro</span> <span md-src-pos="1008..1009">-</span> <span md-src-pos="1010..1056">estudante de graduação em matemática pela UFMG</span> <span md-src-pos="1057..1058">-</span> <span md-src-pos="1059..1112">sob escopo do Projeto Visitas no Mundo da Matemática,</span> <span md-src-pos="1113..1118">2025.</span></p>
    <pre class="code-fence" md-src-pos="1121..1248"><div class="code-fence-highlighter-copy-button" data-fence-content="ZnJvbSBtYXRoIGltcG9ydCAqCmltcG9ydCBtYXRwbG90bGliLnB5cGxvdCBhcyBwbHQKZnJvbSBzY2lweS5zcGVjaWFsIGltcG9ydCAqCgpweCA9IDEvcGx0LnJjUGFyYW1zWydmaWd1cmUuZHBpJ10=">
-  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="http://localhost:63342/markdownPreview/1474629852/?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
+  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="./?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
   <span class="tooltiptext">Copy to clipboard</span>
 </div><code class="language-python" md-src-pos="1121..1248"><span md-src-pos="1121..1131"></span><span md-src-pos="1131..1135" style="color: rgb(0, 51, 179);">from</span><span md-src-pos="1135..1141"> math </span><span md-src-pos="1141..1147" style="color: rgb(0, 51, 179);">import</span><span md-src-pos="1147..1150"> *
 </span><span md-src-pos="1150..1156" style="color: rgb(0, 51, 179);">import</span><span md-src-pos="1156..1175"> matplotlib.pyplot </span><span md-src-pos="1175..1177" style="color: rgb(0, 51, 179);">as</span><span md-src-pos="1177..1182"> plt
@@ -427,7 +427,7 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
      </mjx-container></span></p>
    <p md-src-pos="1636..1891"><span md-src-pos="1636..1701">A fução Gamma tem caráter extremamente assintótico verticalmente,</span> <span md-src-pos="1702..1722">isso quer dizer que,</span> <span md-src-pos="1723..1778">quando avaliada em uma certa vizinhança de seu domínio,</span> <span md-src-pos="1779..1800">ela varia muitíssimo,</span> <span md-src-pos="1801..1837">crescendo e decrescendo rapidamente.</span> <span md-src-pos="1838..1891">Isso pode ser verificado no gráfico que segue abaixo.</span></p>
    <pre class="code-fence" md-src-pos="1894..2270"><div class="code-fence-highlighter-copy-button" data-fence-content="ZmlnLCBheCA9IHBsdC5zdWJwbG90cyhmaWdzaXplPSgzNDQwKnB4LCAxNDQwKnB4KSkKCnggPSBucC5saW5zcGFjZSgtMi45OTksIDksIDIwMDAwMDApCgpheC5wbG90KHgsIGdhbW1hKHgpLCBjb2xvcj0nYmxhY2snLCBsaW5ld2lkdGg9MC43KQoKYXguc2V0X3lsaW0oLTUsIDUpCmF4LnNldF94bGltKC00LCA5KQoKYXguc2V0X2FzcGVjdCgnZXF1YWwnLCBhZGp1c3RhYmxlPSdib3gnKQoKYXguZ3JpZChUcnVlLCBsaW5lc3R5bGU9Jy0tJywgYWxwaGE9MC42KQpheC5heGhsaW5lKDAsIGNvbG9yPSdibGFjaycsIGxpbmV3aWR0aD0wLjUpCmF4LmF4dmxpbmUoMCwgY29sb3I9J2JsYWNrJywgbGluZXdpZHRoPTAuNSkKCnBsdC5zaG93KCk=">
-  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="http://localhost:63342/markdownPreview/1474629852/?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
+  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="./?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
   <span class="tooltiptext">Copy to clipboard</span>
 </div><code class="language-python" md-src-pos="1894..2270"><span md-src-pos="1894..1904"></span><span md-src-pos="1904..1936">fig, ax = plt.subplots(figsize=(</span><span md-src-pos="1936..1940" style="color: rgb(23, 80, 235);">3440</span><span md-src-pos="1940..1945">*px, </span><span md-src-pos="1945..1949" style="color: rgb(23, 80, 235);">1440</span><span md-src-pos="1949..1955">*px))
 </span><span md-src-pos="1955..1956">
@@ -446,7 +446,7 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
 </span><span md-src-pos="2255..2256">
 </span><span md-src-pos="2256..2267">plt.show()
 </span><span md-src-pos="2267..2270"></span></code></pre>
-   <p md-src-pos="2278..2311"><img src="http://localhost:63342/markdownPreview/1474629852/plots_files/plots_3_0.png?_ijt=kh6m3iuaeo9j0iv3gorog46ona" alt="png" __idea-generated="true" md-src-pos="2278..2311" data-original-src="plots_files/plots_3_0.png"></p>
+   <p md-src-pos="2278..2311"><img src="./plots_files/plots_3_0.png" alt="png" __idea-generated="true" md-src-pos="2278..2311" data-original-src="plots_files/plots_3_0.png"></p>
    <p md-src-pos="2319..2544"><span md-src-pos="2319..2344">Em coordenadas esféricas,</span> <span md-src-pos="2345..2380">as assíntotas verticais desaparecem</span>: <span md-src-pos="2382..2418">tornam-se pontos no eixo horizontal.</span> <span md-src-pos="2419..2426">Abaixo,</span> <span md-src-pos="2427..2475">segue o gráfico de uma família de funções Gamma,</span> <span class="math" inline="true" md-src-pos="2476..2544"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" tabindex="0" ctxtmenu_counter="3" style="position: relative;">
       <svg xmlns="http://www.w3.org/2000/svg" width="42.347ex" height="2.262ex" role="img" focusable="false" viewBox="0 -750 18717.3 1000" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.566ex;">
        <defs>
@@ -581,7 +581,7 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
       </mjx-assistive-mml>
      </mjx-container></span></p>
    <pre class="code-fence" md-src-pos="2547..3039"><div class="code-fence-highlighter-copy-button" data-fence-content="ZmlnLCBheCA9IHBsdC5zdWJwbG90cyhmaWdzaXplPSgzNDQwKnB4LCAxNDQwKnB4KSkKCnUgPSBucC5saW5zcGFjZSgtMi45OTksIDksIDIwMDAwMDApCgpmb3IgYyBpbiByYW5nZSgtMTAsIDExKToKCiAgICB2ID0gZ2FtbWEodSkgKyBjCgogICAgZGVub21pbmF0b3IgPSB1KioyICsgdioqMgoKICAgIHMgPSAoMiAqIHUgKiAodioqMikpIC8gZGVub21pbmF0b3IKICAgIHQgPSAoMiAqICh1KioyKSAqIHYpIC8gZGVub21pbmF0b3IKCiAgICBheC5wbG90KHMsIHQsIGNvbG9yPSdibGFjaycsIGxpbmV3aWR0aD0wLjcpCgpheC5zZXRfYXNwZWN0KCdlcXVhbCcsIGFkanVzdGFibGU9J2JveCcpCgpheC5ncmlkKFRydWUsIGxpbmVzdHlsZT0nLS0nLCBhbHBoYT0wLjYpCmF4LmF4aGxpbmUoMCwgY29sb3I9J2JsYWNrJywgbGluZXdpZHRoPTAuNSkKYXguYXh2bGluZSgwLCBjb2xvcj0nYmxhY2snLCBsaW5ld2lkdGg9MC41KQoKcGx0LnNob3coKQ==">
-  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="http://localhost:63342/markdownPreview/1474629852/?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
+  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="./?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
   <span class="tooltiptext">Copy to clipboard</span>
 </div><code class="language-python" md-src-pos="2547..3039"><span md-src-pos="2547..2557"></span><span md-src-pos="2557..2589">fig, ax = plt.subplots(figsize=(</span><span md-src-pos="2589..2593" style="color: rgb(23, 80, 235);">3440</span><span md-src-pos="2593..2598">*px, </span><span md-src-pos="2598..2602" style="color: rgb(23, 80, 235);">1440</span><span md-src-pos="2602..2608">*px))
 </span><span md-src-pos="2608..2609">
@@ -606,7 +606,7 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
 </span><span md-src-pos="3024..3025">
 </span><span md-src-pos="3025..3036">plt.show()
 </span><span md-src-pos="3036..3039"></span></code></pre>
-   <p md-src-pos="3047..3080"><img src="http://localhost:63342/markdownPreview/1474629852/plots_files/plots_5_0.png?_ijt=kh6m3iuaeo9j0iv3gorog46ona" alt="png" __idea-generated="true" md-src-pos="3047..3080" data-original-src="plots_files/plots_5_0.png"></p>
+   <p md-src-pos="3047..3080"><img src="./plots_files/plots_5_0.png" alt="png" __idea-generated="true" md-src-pos="3047..3080" data-original-src="plots_files/plots_5_0.png"></p>
    <h2 id="função-tangente" md-src-pos="3088..3106">Função tangente</h2>
    <p md-src-pos="3108..3310"><span md-src-pos="3108..3212">A função trigonométrica tangente também possui caráter assintótico em várias vizinhanças de seu domínio.</span> <span md-src-pos="3213..3218">Esta,</span> <span md-src-pos="3219..3231">definida por</span> <span class="math" inline="true" md-src-pos="3232..3283"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" tabindex="0" ctxtmenu_counter="4" style="position: relative;">
       <svg xmlns="http://www.w3.org/2000/svg" width="15.951ex" height="4.932ex" role="img" focusable="false" viewBox="0 -1340 7050.6 2180" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -1.9ex;">
@@ -739,7 +739,7 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
       </mjx-assistive-mml>
      </mjx-container></span> <span md-src-pos="3284..3309">possui o seguinte gráfico</span>:</p>
    <pre class="code-fence" md-src-pos="3313..3722"><div class="code-fence-highlighter-copy-button" data-fence-content="ZmlnLCBheCA9IHBsdC5zdWJwbG90cyhmaWdzaXplPSgzNDQwICogcHgsIDE0NDAgKiBweCkpCgp1ID0gbnAubGluc3BhY2UoLTQgKiBwaSwgNCAqIHBpLCAyMDAwMDAwKQoKdiA9IG5wLnRhbih1KQoKYXgucGxvdCh1LCB2LCBjb2xvcj0nYmxhY2snLCBsaW5ld2lkdGg9MC43KQpheC5zZXRfeWxpbSgtMTIuNSwgMTIuNSkKYXguc2V0X3hsaW0oLTUgKiBwaSwgNSAqIHBpKQoKYXguc2V0X2FzcGVjdCgnZXF1YWwnLCBhZGp1c3RhYmxlPSdib3gnKQoKYXguZ3JpZChUcnVlLCBsaW5lc3R5bGU9Jy0tJywgYWxwaGE9MC42KQpheC5heGhsaW5lKDAsIGNvbG9yPSdibGFjaycsIGxpbmV3aWR0aD0wLjUpCmF4LmF4dmxpbmUoMCwgY29sb3I9J2JsYWNrJywgbGluZXdpZHRoPTAuNSkKCnBsdC5zaG93KCk=">
-  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="http://localhost:63342/markdownPreview/1474629852/?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
+  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="./?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
   <span class="tooltiptext">Copy to clipboard</span>
 </div><code class="language-python" md-src-pos="3313..3722"><span md-src-pos="3313..3323"></span><span md-src-pos="3323..3355">fig, ax = plt.subplots(figsize=(</span><span md-src-pos="3355..3359" style="color: rgb(23, 80, 235);">3440</span><span md-src-pos="3359..3366"> * px, </span><span md-src-pos="3366..3370" style="color: rgb(23, 80, 235);">1440</span><span md-src-pos="3370..3378"> * px))
 </span><span md-src-pos="3378..3379">
@@ -759,7 +759,7 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
 </span><span md-src-pos="3707..3708">
 </span><span md-src-pos="3708..3719">plt.show()
 </span><span md-src-pos="3719..3722"></span></code></pre>
-   <p md-src-pos="3730..3763"><img src="http://localhost:63342/markdownPreview/1474629852/plots_files/plots_7_0.png?_ijt=kh6m3iuaeo9j0iv3gorog46ona" alt="png" __idea-generated="true" md-src-pos="3730..3763" data-original-src="plots_files/plots_7_0.png"></p>
+   <p md-src-pos="3730..3763"><img src="./plots_files/plots_7_0.png" alt="png" __idea-generated="true" md-src-pos="3730..3763" data-original-src="plots_files/plots_7_0.png"></p>
    <p md-src-pos="3771..3947"><span md-src-pos="3771..3784">Analogamente,</span> <span md-src-pos="3785..3877">podemos evidenciar o desaparecimento das assintotas nesta plotagem de uma família de funções</span> <span class="math" inline="true" md-src-pos="3878..3946"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" tabindex="0" ctxtmenu_counter="5" style="position: relative;">
       <svg xmlns="http://www.w3.org/2000/svg" width="42.759ex" height="2.262ex" role="img" focusable="false" viewBox="0 -750 18899.3 1000" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.566ex;">
        <defs>
@@ -903,7 +903,7 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
       </mjx-assistive-mml>
      </mjx-container></span>:</p>
    <pre class="code-fence" md-src-pos="3950..4448"><div class="code-fence-highlighter-copy-button" data-fence-content="ZmlnLCBheCA9IHBsdC5zdWJwbG90cyhmaWdzaXplPSgzNDQwKnB4LCAxNDQwKnB4KSkKCnUgPSBucC5saW5zcGFjZSgtNCogcGksIDQgKiBwaSwgMjAwMDAwMCkKCmZvciBjIGluIHJhbmdlKC0xMCwgMTEpOgoKICAgIHYgPSBucC50YW4odSkgKyBjCgogICAgZGVub21pbmF0b3IgPSB1KioyICsgdioqMgoKICAgIHMgPSAoMiAqIHUgKiAodioqMikpIC8gZGVub21pbmF0b3IKICAgIHQgPSAoMiAqICh1KioyKSAqIHYpIC8gZGVub21pbmF0b3IKCiAgICBheC5wbG90KHMsIHQsIGNvbG9yPSdibGFjaycsIGxpbmV3aWR0aD0wLjcpCgpheC5zZXRfYXNwZWN0KCdlcXVhbCcsIGFkanVzdGFibGU9J2JveCcpCgpheC5ncmlkKFRydWUsIGxpbmVzdHlsZT0nLS0nLCBhbHBoYT0wLjYpCmF4LmF4aGxpbmUoMCwgY29sb3I9J2JsYWNrJywgbGluZXdpZHRoPTAuNSkKYXguYXh2bGluZSgwLCBjb2xvcj0nYmxhY2snLCBsaW5ld2lkdGg9MC41KQoKcGx0LnNob3coKQ==">
-  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="http://localhost:63342/markdownPreview/1474629852/?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
+  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="./?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
   <span class="tooltiptext">Copy to clipboard</span>
 </div><code class="language-python" md-src-pos="3950..4448"><span md-src-pos="3950..3960"></span><span md-src-pos="3960..3992">fig, ax = plt.subplots(figsize=(</span><span md-src-pos="3992..3996" style="color: rgb(23, 80, 235);">3440</span><span md-src-pos="3996..4001">*px, </span><span md-src-pos="4001..4005" style="color: rgb(23, 80, 235);">1440</span><span md-src-pos="4005..4011">*px))
 </span><span md-src-pos="4011..4012">
@@ -928,7 +928,7 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
 </span><span md-src-pos="4433..4434">
 </span><span md-src-pos="4434..4445">plt.show()
 </span><span md-src-pos="4445..4448"></span></code></pre>
-   <p md-src-pos="4456..4489"><img src="http://localhost:63342/markdownPreview/1474629852/plots_files/plots_9_0.png?_ijt=kh6m3iuaeo9j0iv3gorog46ona" alt="png" __idea-generated="true" md-src-pos="4456..4489" data-original-src="plots_files/plots_9_0.png"></p>
+   <p md-src-pos="4456..4489"><img src="./plots_files/plots_9_0.png?_ijt=kh6m3iuaeo9j0iv3gorog46ona" alt="png" __idea-generated="true" md-src-pos="4456..4489" data-original-src="plots_files/plots_9_0.png"></p>
    <h2 id="a-função-afim" md-src-pos="4497..4513">A função afim</h2>
    <p md-src-pos="4515..4621"><span md-src-pos="4515..4585">A função afim é muitas vezes considerada uma das funções mais simples,</span> <span md-src-pos="4586..4620">ela é definida da seguinte maneira</span>:</p>
    <p md-src-pos="4623..4642"><span class="math" inline="false" md-src-pos="4623..4642"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" display="true" tabindex="0" ctxtmenu_counter="6" style="position: relative;">
@@ -1054,7 +1054,7 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
      </mjx-container></span></p>
    <p md-src-pos="4812..4852"><span md-src-pos="4812..4851">Seu gráfico pode ser observado a seguir</span>:</p>
    <pre class="code-fence" md-src-pos="4855..5180"><div class="code-fence-highlighter-copy-button" data-fence-content="ZmlnLCBheCA9IHBsdC5zdWJwbG90cyhmaWdzaXplPSgzNDQwKnB4LCAxNDQwKnB4KSkKCnUgPSBucC5saW5zcGFjZSgtOSwgOSwgMjAwMDAwKQoKYXgucGxvdCh1LCB1LCBjb2xvcj0nYmxhY2snLCBsaW5ld2lkdGg9MC43KQoKYXguc2V0X2FzcGVjdCgnZXF1YWwnLCBhZGp1c3RhYmxlPSdib3gnKQoKYXguZ3JpZChUcnVlLCBsaW5lc3R5bGU9Jy0tJywgYWxwaGE9MC42KQpheC5heGhsaW5lKDAsIGNvbG9yPSdibGFjaycsIGxpbmV3aWR0aD0wLjUpCmF4LmF4dmxpbmUoMCwgY29sb3I9J2JsYWNrJywgbGluZXdpZHRoPTAuNSkKCnBsdC5zaG93KCk=">
-  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="http://localhost:63342/markdownPreview/1474629852/?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
+  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="./?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
   <span class="tooltiptext">Copy to clipboard</span>
 </div><code class="language-python" md-src-pos="4855..5180"><span md-src-pos="4855..4865"></span><span md-src-pos="4865..4897">fig, ax = plt.subplots(figsize=(</span><span md-src-pos="4897..4901" style="color: rgb(23, 80, 235);">3440</span><span md-src-pos="4901..4906">*px, </span><span md-src-pos="4906..4910" style="color: rgb(23, 80, 235);">1440</span><span md-src-pos="4910..4916">*px))
 </span><span md-src-pos="4916..4917">
@@ -1070,7 +1070,7 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
 </span><span md-src-pos="5165..5166">
 </span><span md-src-pos="5166..5177">plt.show()
 </span><span md-src-pos="5177..5180"></span></code></pre>
-   <p md-src-pos="5188..5222"><img src="http://localhost:63342/markdownPreview/1474629852/plots_files/plots_11_0.png?_ijt=kh6m3iuaeo9j0iv3gorog46ona" alt="png" __idea-generated="true" md-src-pos="5188..5222" data-original-src="plots_files/plots_11_0.png"></p>
+   <p md-src-pos="5188..5222"><img src="./plots_files/plots_11_0.png?_ijt=kh6m3iuaeo9j0iv3gorog46ona" alt="png" __idea-generated="true" md-src-pos="5188..5222" data-original-src="plots_files/plots_11_0.png"></p>
    <p md-src-pos="5230..5770"><span md-src-pos="5230..5274">Essa função não possui assíntotas verticais,</span> <span md-src-pos="5275..5286">no entanto,</span> <span md-src-pos="5287..5313">em coordenadas circulares,</span> <span md-src-pos="5314..5335">podemos observar que,</span> <span md-src-pos="5336..5354">exceto pela função</span> <span class="math" inline="true" md-src-pos="5355..5364"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" tabindex="0" ctxtmenu_counter="10" style="position: relative;">
       <svg xmlns="http://www.w3.org/2000/svg" width="6.396ex" height="1.694ex" role="img" focusable="false" viewBox="0 -583 2827.1 748.6" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.375ex;">
        <defs>
@@ -1124,7 +1124,7 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
       </mjx-assistive-mml>
      </mjx-container></span> <span md-src-pos="5571..5604">centrada na origem possui raio 0,</span> <span md-src-pos="5605..5686">isso faz com que a interseção entre as circunferências vão em direção à origem e,</span> <span md-src-pos="5687..5705">em sua vizinhança,</span> <span md-src-pos="5706..5726">arredondem as retas.</span> <span md-src-pos="5727..5770">Você pode verificar isso no gráfico abaixo.</span></p>
    <pre class="code-fence" md-src-pos="5773..6253"><div class="code-fence-highlighter-copy-button" data-fence-content="ZmlnLCBheCA9IHBsdC5zdWJwbG90cyhmaWdzaXplPSgzNDQwKnB4LCAxNDQwKnB4KSkKCnUgPSBucC5saW5zcGFjZSgtOSwgOSwgMjAwMDAwKQoKZm9yIGMgaW4gcmFuZ2UoLTEwLCAxMSk6CgogICAgdiA9IHUgKyBjCgogICAgZGVub21pbmF0b3IgPSB1KioyICsgdioqMgoKICAgIHMgPSAoMiAqIHUgKiAodioqMikpIC8gZGVub21pbmF0b3IKICAgIHQgPSAoMiAqICh1KioyKSAqIHYpIC8gZGVub21pbmF0b3IKCiAgICBheC5wbG90KHMsIHQsIGNvbG9yPSdibGFjaycsIGxpbmV3aWR0aD0wLjcpCgpheC5zZXRfYXNwZWN0KCdlcXVhbCcsIGFkanVzdGFibGU9J2JveCcpCgpheC5ncmlkKFRydWUsIGxpbmVzdHlsZT0nLS0nLCBhbHBoYT0wLjYpCmF4LmF4aGxpbmUoMCwgY29sb3I9J2JsYWNrJywgbGluZXdpZHRoPTAuNSkKYXguYXh2bGluZSgwLCBjb2xvcj0nYmxhY2snLCBsaW5ld2lkdGg9MC41KQoKcGx0LnNob3coKQ==">
-  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="http://localhost:63342/markdownPreview/1474629852/?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
+  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="./?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
   <span class="tooltiptext">Copy to clipboard</span>
 </div><code class="language-python" md-src-pos="5773..6253"><span md-src-pos="5773..5783"></span><span md-src-pos="5783..5815">fig, ax = plt.subplots(figsize=(</span><span md-src-pos="5815..5819" style="color: rgb(23, 80, 235);">3440</span><span md-src-pos="5819..5824">*px, </span><span md-src-pos="5824..5828" style="color: rgb(23, 80, 235);">1440</span><span md-src-pos="5828..5834">*px))
 </span><span md-src-pos="5834..5835">
@@ -1149,7 +1149,7 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
 </span><span md-src-pos="6238..6239">
 </span><span md-src-pos="6239..6250">plt.show()
 </span><span md-src-pos="6250..6253"></span></code></pre>
-   <p md-src-pos="6261..6295"><img src="http://localhost:63342/markdownPreview/1474629852/plots_files/plots_13_0.png?_ijt=kh6m3iuaeo9j0iv3gorog46ona" alt="png" __idea-generated="true" md-src-pos="6261..6295" data-original-src="plots_files/plots_13_0.png"></p>
+   <p md-src-pos="6261..6295"><img src="./plots_files/plots_13_0.png?_ijt=kh6m3iuaeo9j0iv3gorog46ona" alt="png" __idea-generated="true" md-src-pos="6261..6295" data-original-src="plots_files/plots_13_0.png"></p>
    <h2 id="a-função-zeta-de-riemann-zeta" md-src-pos="6303..6338">A Função Zeta de Riemann <span class="math" inline="true" md-src-pos="6331..6338"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" tabindex="0" ctxtmenu_counter="12" style="position: relative;">
       <svg xmlns="http://www.w3.org/2000/svg" width="1.066ex" height="2.054ex" role="img" focusable="false" viewBox="0 -704 471 908" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.462ex;">
        <defs>
@@ -1529,7 +1529,7 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
       </mjx-assistive-mml>
      </mjx-container></span><span md-src-pos="7094..7095">.</span> <span md-src-pos="7096..7105">Com isso,</span> <span md-src-pos="7106..7181">podemos desenhar o gráfico da Zeta de Riemann para seus zeros não-triviais,</span> <span md-src-pos="7182..7277">dessa forma o eixo horizontal representará a parte real do resultado e o vertical a imaginária.</span> <span md-src-pos="7278..7300">Em termos geométricos,</span> <span md-src-pos="7301..7386">essa linha é importante porque é a única que faz com que a espiral passe pela origem.</span> <span md-src-pos="7387..7412">Isso é importante porque,</span> <span md-src-pos="7413..7433">com essa informação,</span> <span md-src-pos="7434..7515">é possível entender coisas como a frequência dos números primos na reta numérica.</span></p>
    <pre class="code-fence" md-src-pos="7518..7983"><div class="code-fence-highlighter-copy-button" data-fence-content="ZmlnLCBheCA9IHBsdC5zdWJwbG90cyhmaWdzaXplPSgzNDQwKnB4LCAxNDQwKnB4KSkKCnggPSBucC5saW5zcGFjZSgwLCA1MCwgMjAwMDAwMCkKcyA9IDAuNSArIDFqICogeCAgIyAnMWonIMOpIGNvbW8gbyBQeXRob24gcmVwcmVzZW50YSBhIHVuaWRhZGUgaW1hZ2luw6FyaWEgJ2knCgp6ID0gemV0YShzKQoKYXgucGxvdCh6LnJlYWwsIHouaW1hZywgY29sb3I9J2JsYWNrJywgbGluZXdpZHRoPTAuNykKCmF4LnNldF9hc3BlY3QoJ2VxdWFsJywgYWRqdXN0YWJsZT0nYm94JykKCmF4LnNldF95bGltKC00LCA0KQpheC5zZXRfeGxpbSgtMiwgNikKCmF4LmdyaWQoVHJ1ZSwgbGluZXN0eWxlPSctLScsIGFscGhhPTAuNikKYXguYXhobGluZSgwLCBjb2xvcj0nYmxhY2snLCBsaW5ld2lkdGg9MC41KQpheC5heHZsaW5lKDAsIGNvbG9yPSdibGFjaycsIGxpbmV3aWR0aD0wLjUpCgpwbHQuc2hvdygp">
-  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="http://localhost:63342/markdownPreview/1474629852/?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
+  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="./?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
   <span class="tooltiptext">Copy to clipboard</span>
 </div><code class="language-python" md-src-pos="7518..7983"><span md-src-pos="7518..7528"></span><span md-src-pos="7528..7560">fig, ax = plt.subplots(figsize=(</span><span md-src-pos="7560..7564" style="color: rgb(23, 80, 235);">3440</span><span md-src-pos="7564..7569">*px, </span><span md-src-pos="7569..7573" style="color: rgb(23, 80, 235);">1440</span><span md-src-pos="7573..7579">*px))
 </span><span md-src-pos="7579..7580">
@@ -1551,10 +1551,10 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
 </span><span md-src-pos="7968..7969">
 </span><span md-src-pos="7969..7980">plt.show()
 </span><span md-src-pos="7980..7983"></span></code></pre>
-   <p md-src-pos="7991..8025"><img src="http://localhost:63342/markdownPreview/1474629852/plots_files/plots_15_0.png?_ijt=kh6m3iuaeo9j0iv3gorog46ona" alt="png" __idea-generated="true" md-src-pos="7991..8025" data-original-src="plots_files/plots_15_0.png"></p>
+   <p md-src-pos="7991..8025"><img src="./plots_files/plots_15_0.png?_ijt=kh6m3iuaeo9j0iv3gorog46ona" alt="png" __idea-generated="true" md-src-pos="7991..8025" data-original-src="plots_files/plots_15_0.png"></p>
    <p md-src-pos="8033..8116"><span md-src-pos="8033..8115">Em coordenadas circulares acabamos com uma figura balanceada bastante interessante</span>:</p>
    <pre class="code-fence" md-src-pos="8119..8654"><div class="code-fence-highlighter-copy-button" data-fence-content="ZmlnLCBheCA9IHBsdC5zdWJwbG90cyhmaWdzaXplPSgzNDQwKnB4LCAxNDQwKnB4KSkKCnggPSBucC5saW5zcGFjZSgwLCA1MDAsIDIwMDAwMCkKcyA9IDAuNSArIDFqICogeAoKZm9yIGMgaW4gcmFuZ2UoLTEwLCAxMSk6CgogICAgeiA9IHpldGEocykgKyBjCgogICAgdSA9IHoucmVhbAogICAgdiA9IHouaW1hZwoKICAgIGRlbm9taW5hdG9yID0gdSoqMiArIHYqKjIKCiAgICBzID0gKDIgKiB1ICogKHYqKjIpKSAvIGRlbm9taW5hdG9yCiAgICB0ID0gKDIgKiAodSoqMikgKiB2KSAvIGRlbm9taW5hdG9yCgogICAgYXgucGxvdChzLCB0LCBjb2xvcj0nYmxhY2snLCBsaW5ld2lkdGg9MC43KQoKYXguc2V0X2FzcGVjdCgnZXF1YWwnLCBhZGp1c3RhYmxlPSdib3gnKQoKYXguZ3JpZChUcnVlLCBsaW5lc3R5bGU9Jy0tJywgYWxwaGE9MC42KQpheC5heGhsaW5lKDAsIGNvbG9yPSdibGFjaycsIGxpbmV3aWR0aD0wLjUpCmF4LmF4dmxpbmUoMCwgY29sb3I9J2JsYWNrJywgbGluZXdpZHRoPTAuNSkKCnBsdC5zaG93KCk=">
-  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="http://localhost:63342/markdownPreview/1474629852/?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
+  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="./?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
   <span class="tooltiptext">Copy to clipboard</span>
 </div><code class="language-python" md-src-pos="8119..8654"><span md-src-pos="8119..8129"></span><span md-src-pos="8129..8161">fig, ax = plt.subplots(figsize=(</span><span md-src-pos="8161..8165" style="color: rgb(23, 80, 235);">3440</span><span md-src-pos="8165..8170">*px, </span><span md-src-pos="8170..8174" style="color: rgb(23, 80, 235);">1440</span><span md-src-pos="8174..8180">*px))
 </span><span md-src-pos="8180..8181">
@@ -1583,7 +1583,7 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
 </span><span md-src-pos="8639..8640">
 </span><span md-src-pos="8640..8651">plt.show()
 </span><span md-src-pos="8651..8654"></span></code></pre>
-   <p md-src-pos="8662..8696"><img src="http://localhost:63342/markdownPreview/1474629852/plots_files/plots_17_0.png?_ijt=kh6m3iuaeo9j0iv3gorog46ona" alt="png" __idea-generated="true" md-src-pos="8662..8696" data-original-src="plots_files/plots_17_0.png"></p>
+   <p md-src-pos="8662..8696"><img src="./plots_files/plots_17_0.png?_ijt=kh6m3iuaeo9j0iv3gorog46ona" alt="png" __idea-generated="true" md-src-pos="8662..8696" data-original-src="plots_files/plots_17_0.png"></p>
    <h2 id="a-espiral-áurea" md-src-pos="8704..8722">A Espiral Áurea</h2>
    <p md-src-pos="8724..9170"><span md-src-pos="8724..8746">O dito Número de Ouro,</span> <span class="math" inline="true" md-src-pos="8747..8753"><mjx-container class="MathJax CtxtMenu_Attached_0" jax="SVG" tabindex="0" ctxtmenu_counter="20" style="position: relative;">
       <svg xmlns="http://www.w3.org/2000/svg" width="1.348ex" height="2.034ex" role="img" focusable="false" viewBox="0 -694 596 899" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" style="vertical-align: -0.464ex;">
@@ -2132,7 +2132,7 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
       </mjx-assistive-mml>
      </mjx-container></span> <span md-src-pos="9584..9592">radianos</span>)<span md-src-pos="9593..9594">.</span></p>
    <pre class="code-fence" md-src-pos="9597..10111"><div class="code-fence-highlighter-copy-button" data-fence-content="cGhpID0gKDEgKyBucC5zcXJ0KDUpKSAvIDIKCmIgPSAoMiAqIG5wLmxvZyhwaGkpKSAvIG5wLnBpCgojICdhJyDDqSB1bSBmYXRvciBkZSBlc2NhbGEgaW5pY2lhbCBkYSBlc3BpcmFsLgphID0gMC4yCgp0aGV0YSA9IG5wLmxpbnNwYWNlKDAsIDggKiBucC5waSwgODAwKQoKciA9IGEgKiBucC5leHAoYiAqIHRoZXRhKQoKIyBDb252ZXJ0ZW5kbyBkZSBjb29yZGVuYWRhcyBwb2xhcmVzIChyLCB0aGV0YSkgcGFyYSBjYXJ0ZXNpYW5hcyAoeCwgeSkgcGFyYSBvIHBsb3QuCnggPSByICogbnAuY29zKHRoZXRhKQp5ID0gciAqIG5wLnNpbih0aGV0YSkKCmZpZywgYXggPSBwbHQuc3VicGxvdHMoZmlnc2l6ZT0oMzQ0MCAqIHB4LCAxNDQwICogcHgpKQoKIyBQbG90YW1vcyBvcyBwb250b3MgKHgsIHkpIHBhcmEgZGVzZW5oYXIgYSBlc3BpcmFsLgpheC5wbG90KHgsIHksIGNvbG9yPSdibGFjaycsIGxpbmV3aWR0aD0yLjUpCgpheC5zZXRfYXNwZWN0KCdlcXVhbCcpCgpwbHQuc2hvdygp">
-  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="http://localhost:63342/markdownPreview/1474629852/?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
+  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="./?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
   <span class="tooltiptext">Copy to clipboard</span>
 </div><code class="language-python" md-src-pos="9597..10111"><span md-src-pos="9597..9607"></span><span md-src-pos="9607..9614">phi = (</span><span md-src-pos="9614..9615" style="color: rgb(23, 80, 235);">1</span><span md-src-pos="9615..9626"> + np.sqrt(</span><span md-src-pos="9626..9627" style="color: rgb(23, 80, 235);">5</span><span md-src-pos="9627..9632">)) / </span><span md-src-pos="9632..9633" style="color: rgb(23, 80, 235);">2</span><span md-src-pos="9633..9634">
 </span><span md-src-pos="9634..9635">
@@ -2158,10 +2158,10 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
 </span><span md-src-pos="10096..10097">
 </span><span md-src-pos="10097..10108">plt.show()
 </span><span md-src-pos="10108..10111"></span></code></pre>
-   <p md-src-pos="10119..10153"><img src="http://localhost:63342/markdownPreview/1474629852/plots_files/plots_19_0.png?_ijt=kh6m3iuaeo9j0iv3gorog46ona" alt="png" __idea-generated="true" md-src-pos="10119..10153" data-original-src="plots_files/plots_19_0.png"></p>
+   <p md-src-pos="10119..10153"><img src="./plots_files/plots_19_0.png?_ijt=kh6m3iuaeo9j0iv3gorog46ona" alt="png" __idea-generated="true" md-src-pos="10119..10153" data-original-src="plots_files/plots_19_0.png"></p>
    <p md-src-pos="10161..10233"><span md-src-pos="10161..10170">Com isso,</span> <span md-src-pos="10171..10233">vamos produzir uma família de 20 espirais áureas rotacionadas.</span></p>
    <pre class="code-fence" md-src-pos="10236..10853"><div class="code-fence-highlighter-copy-button" data-fence-content="cGhpID0gKDEgKyBucC5zcXJ0KDUpKSAvIDIKayA9ICgyICogbnAubG9nKHBoaSkpIC8gbnAucGkKYSA9IDAuMDIKCnRoZXRhID0gbnAubGluc3BhY2UoMCwgOCAqIG5wLnBpLCAyMDAwMDAwKQoKZmlnLCBheCA9IHBsdC5zdWJwbG90cyhmaWdzaXplPSgzNDQwKnB4LCAxNDQwKnB4KSkKCm51bV9zcGlyYWxzID0gMjAKZm9yIGkgaW4gcmFuZ2UobnVtX3NwaXJhbHMpOgoKICAgIHJvdGF0aW9uX29mZnNldCA9ICgyICogbnAucGkgLyBudW1fc3BpcmFscykgKiBpCgogICAgdSA9IGEgKiBucC5leHAoayAqIHRoZXRhKSAqIG5wLmNvcyh0aGV0YSArIHJvdGF0aW9uX29mZnNldCkKICAgIHYgPSBhICogbnAuZXhwKGsgKiB0aGV0YSkgKiBucC5zaW4odGhldGEgKyByb3RhdGlvbl9vZmZzZXQpCgogICAgZGVub21pbmF0b3IgPSB1KioyICsgdioqMgoKICAgIHMgPSAoMiAqIHUgKiAodioqMikpIC8gZGVub21pbmF0b3IKICAgIHQgPSAoMiAqICh1KioyKSAqIHYpIC8gZGVub21pbmF0b3IKCiAgICBheC5wbG90KHMsIHQsIGNvbG9yPSdibGFjaycsIGxpbmV3aWR0aD0wLjgpCgpheC5zZXRfYXNwZWN0KCdlcXVhbCcsIGFkanVzdGFibGU9J2JveCcpCgpwbHQuc2hvdygp">
-  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="http://localhost:63342/markdownPreview/1474629852/?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
+  <img class="code-fence-highlighter-copy-button-icon" data-original-src="" src="./?_ijt=kh6m3iuaeo9j0iv3gorog46ona">
   <span class="tooltiptext">Copy to clipboard</span>
 </div><code class="language-python" md-src-pos="10236..10853"><span md-src-pos="10236..10246"></span><span md-src-pos="10246..10253">phi = (</span><span md-src-pos="10253..10254" style="color: rgb(23, 80, 235);">1</span><span md-src-pos="10254..10265"> + np.sqrt(</span><span md-src-pos="10265..10266" style="color: rgb(23, 80, 235);">5</span><span md-src-pos="10266..10271">)) / </span><span md-src-pos="10271..10272" style="color: rgb(23, 80, 235);">2</span><span md-src-pos="10272..10273">
 </span><span md-src-pos="10273..10278">k = (</span><span md-src-pos="10278..10279" style="color: rgb(23, 80, 235);">2</span><span md-src-pos="10279..10303"> * np.log(phi)) / np.pi
@@ -2190,7 +2190,7 @@ mjx-container[jax="SVG"] path[data-c], mjx-container[jax="SVG"] use[data-c] {
 </span><span md-src-pos="10838..10839">
 </span><span md-src-pos="10839..10850">plt.show()
 </span><span md-src-pos="10850..10853"></span></code></pre>
-   <p md-src-pos="10861..10895"><img src="http://localhost:63342/markdownPreview/1474629852/plots_files/plots_21_0.png?_ijt=kh6m3iuaeo9j0iv3gorog46ona" alt="png" __idea-generated="true" md-src-pos="10861..10895" data-original-src="plots_files/plots_21_0.png"></p>
+   <p md-src-pos="10861..10895"><img src="./plots_files/plots_21_0.png?_ijt=kh6m3iuaeo9j0iv3gorog46ona" alt="png" __idea-generated="true" md-src-pos="10861..10895" data-original-src="plots_files/plots_21_0.png"></p>
    <p md-src-pos="10903..11326"><span md-src-pos="10903..10925">E aqui chegamos ao fim</span>! <span md-src-pos="10927..11010">As coordenadas circulares nos ajudam a visualizar funções de uma maneira não-usual,</span> <span md-src-pos="11011..11069">permitindo-nos gerar belíssimas imagens com curvas suaves,</span> <span md-src-pos="11070..11099">verdadeiras artes matemáticas</span>! <span md-src-pos="11101..11233">Você pode utilizar deste notebook e dos materiais citados nas células anteriores para implementar suas próprias curvas e enviar para</span> <a href="mailto:projetovisitas@gmail.com" md-src-pos="11234..11293">projetovisitas@gmail.com</a><span md-src-pos="11293..11294">,</span> <span md-src-pos="11295..11326">vamos adorar ver suas criações.</span></p>
    <p md-src-pos="11328..11349"><span md-src-pos="11328..11332">Att,</span> <span md-src-pos="11333..11349">Gabriel Ribeiro.</span></p>
   </div>
